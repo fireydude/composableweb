@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComposableWeb", "ComposableWeb\ComposableWeb.csproj", "{03DDD5DB-326E-41B9-BA24-4098B46C8C75}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{B7E1D637-3C0D-4635-AF12-B099C9B405A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamGame", "TeamGame\TeamGame.csproj", "{FD19BF3A-C855-49DB-BD60-7C08CE7032C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +19,15 @@ Global
 		{03DDD5DB-326E-41B9-BA24-4098B46C8C75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03DDD5DB-326E-41B9-BA24-4098B46C8C75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03DDD5DB-326E-41B9-BA24-4098B46C8C75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD19BF3A-C855-49DB-BD60-7C08CE7032C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD19BF3A-C855-49DB-BD60-7C08CE7032C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD19BF3A-C855-49DB-BD60-7C08CE7032C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD19BF3A-C855-49DB-BD60-7C08CE7032C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FD19BF3A-C855-49DB-BD60-7C08CE7032C8} = {B7E1D637-3C0D-4635-AF12-B099C9B405A3}
 	EndGlobalSection
 EndGlobal
